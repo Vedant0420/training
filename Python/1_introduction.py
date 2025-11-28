@@ -1,4 +1,6 @@
 # This is a comment
+# Variables = A container for storing data values (integer, float, string, boolean)
+#             A variable behaves as if it is the value that it contains
 
 #print command
 print("This is a print command")
@@ -25,5 +27,11 @@ cgpa = 8.45
 print(f"Your cgpa for 1st year is {cgpa}!")
 
 #boolean concepts 
-is_student = True
+is_student = False
 print(f"Are you a student? {is_student}")
+
+if is_student:
+    print("You're a student") #this will only print if the condition is is_student = True
+else:
+    print("You're not a student ") #this will print if the condition is_student = false
+    
