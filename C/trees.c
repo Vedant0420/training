@@ -8,8 +8,7 @@
 //Queue follows FIFO (First In First Out) principle
 
 //In this we are studying trees
-
-//tress are non-linear data structures
+// tress are non-linear data structures
 //A tree is a collection of nodes connected by edges
 //The topmost node is called the root node
 //Each node contains a value and a list of references to other nodes (its children)
@@ -142,6 +141,3 @@
 // and right child is at index '2i + 1' (case 2)
 // its parent is at index '(i-1)/2' (case 1)
 // its parent is at index 'i/2' (case 2)
-
-
-
