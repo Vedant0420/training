@@ -16,6 +16,8 @@ function getCarInfo($brand, $color) {
 }
 
 echo getCarInfo($brand, $color);
+echo "<br>";
+echo getCarInfo("BMW", "Blue");
 ?>
 </body>
 </html>
