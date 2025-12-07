@@ -18,4 +18,5 @@
   $car01 = new Car("Toyota", "Black");
   echo $car01->brand;
   $car01->vehicletype;
+  
 ?>
