@@ -58,10 +58,9 @@ void preorder(struct node *root) {
     preorder(root->right);
 
     // for inorder and postorder, just change the position of the print statement
-    // norder : void inorder(struct node *root) {
+    // inorder : void inorder(struct node *root) {
     // if (root == 0)
     //     return;
-    // for inorder :
     // inorder(root->left);
     // printf("%d ", root->data);
     // inorder(root->right);
